@@ -33,21 +33,25 @@ Copyright (c) 2023 Brianca Knight
 ## TESTS
 
 Describe Pizza ()
-
+```
 Test: It should create a Pizza object with two toppings and size. 
 Code: const pizza1 = new Pizza(["pepperoni", "olive"], "medium");
 Expected Output: pizza1 { toppings: ["pepperoni", "olive"], size: "medium" }
-
+```
+```
 Test: It should create a prototype to calculate pizza cost. 
 Code: pizza1.cost();
 Expected Output: $15
+```
 
 Describe Order ()
-
+```
 Test: It should create a Order constructor that holds different pizzas.
 Code: const testOrder = new Order("pizza1", "pizza2");
 Expected Output: Order {"pizza1", "pizza2"}
-
+```
+```
 Test: It will create a reciept prototype to calculate cost of multiple pizza orders.
 Code: order.receipt();
 Expected Output: $45
+```
