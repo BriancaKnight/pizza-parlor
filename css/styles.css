@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(245, 200, 195);
+}
+
+h1 {
+  line-height: normal;
+  text-align: center;
+  font-weight: 200;
+  font-size: 50px
+}
+
+h2 {
+  line-height: 0px;
+}
+.header {
+  text-align: center;
+}
+h2 {
+  font-weight: 200;
+  font-size: 23px
+}
+
+.radio-div, .checkbox-div {
+  display: inline-block; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+}
